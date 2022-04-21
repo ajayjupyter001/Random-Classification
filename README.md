@@ -7,17 +7,26 @@ To write a python program to perform random classification.
 2. Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 ## Related Theoritical Concept:
-Random classifier:
-It creates a set of decision trees from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object. Random Forest is suitable for situations when we have a large dataset, and interpretability is not a major concern.
+NUMPY
+NumPy is a library for the Python programming language, adding support for large, multidimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
-Purpose of Random classifier:
-One of the most important features of the Random Forest Algorithm is that it can handle the data set containing continuous variables as in the case of regression and categorical variables as in the case of classification.
+SK LEARN
+Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support-vector machines.
+
+MATPLOTLIB
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using generalpurpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
+
 
 ## Algorithm
-1.In Random forest n number of random records are taken from the data set having k number of records. 
-2.Individual decision trees are constructed for each sample.
-3.Each decision tree will generate an output.
-4.Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
+1.  Start the program.
+2.	Import libraries required as per requirement.
+3.	Define dataset use the make_blobs() function to generate a synthetic multi -class classification dataset.
+4.	summarize dataset shape
+5.	summarize observations by class label
+6.	summarize first few examples
+7.	plot the dataset and color the by class label
+8.	stop the program
+
 
 ## Program:
 ```
@@ -40,7 +49,8 @@ plt.ylabel("Feaure 2")
 plt.title("Random Classification Data with 2 classes")
 ```
 ## Output:
-![nn1](https://user-images.githubusercontent.com/102233600/164489342-58becfa1-9474-4911-a5cd-f95c914e7a37.png)
+![image](https://user-images.githubusercontent.com/102233600/164498332-f16241c8-ff44-4448-a96e-0c049f4a3b36.png)
+
 
 
 
